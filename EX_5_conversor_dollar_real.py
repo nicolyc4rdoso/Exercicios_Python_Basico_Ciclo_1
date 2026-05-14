@@ -8,6 +8,11 @@
 # O valor em reais é:  560.0
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+cotaçao = float(input("Digite a cotação do dollar:"))
+dolares = float(input("Digite a quantidade de dolares:"))
 
+reais = cotaçao * dolares
+
+print("valor em reais:", reais)
 
 

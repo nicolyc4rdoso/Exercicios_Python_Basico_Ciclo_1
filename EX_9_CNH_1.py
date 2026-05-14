@@ -14,3 +14,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+idade = int(input("qual é a sua idade?"))
+
+pode_tirar_cnh = idade>= 18
+
+print("Pode tirar cnh:{pode_tirar_cnh}")

@@ -22,6 +22,9 @@ idade = int(input("Digite a sua idade :"))
 email = input("Digite o seu email:")
 senha = int(input("Digite a sua senha :"))
 
-print(" | ------------------------------ |")
-print("| ---------- CADASTRO ---------- |")
-print("| ------------------------------ |")
+print("nome:", nome)
+print("idade:", idade)
+print("email:", email)
+print("senha:", senha)
+
+print( "usuario cadastrado!")
